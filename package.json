@@ -4,13 +4,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "bulma": "^0.9.2",
     "bulma-toast": "^2.3.0",
+    "express": "^4.17.1",
     "flutterwave-vue-v3": "^1.0.5",
+    "serve-static": "^1.14.1",
+    "server-static": "^2.0.5",
     "tailwind-toast": "^1.0.9",
     "vue": "^3.0.5",
     "vue-flutterwave": "^1.0.0",
