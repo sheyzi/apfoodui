@@ -55,10 +55,10 @@
                         <p class="text-xl font-semibold">
                             Your cart is empty!!
                         </p>
-                        <button class="">
+                        <router-link to="/">
                             <i class="fas animate-pulse fa-arrow-left"></i>
                             Continue shopping
-                        </button>
+                        </router-link>
                     </div>
                     <hr class="pb-6 mt-6" />
                     <div class="my-4 mt-6 -mx-2 lg:flex">
