@@ -333,7 +333,9 @@ export default {
                 .post('/api/v1/checkout/', data)
                 .then((res) => {
                     this.$store.commit('clearCart')
-                    window.location.replace('http://127.0.0.1:3000/success')
+                    window.location.replace(
+                        'https://apfoods.herokuapp.com/success'
+                    )
                 })
                 .catch((err) => {
                     toast()
