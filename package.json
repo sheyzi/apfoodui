@@ -1,0 +1,33 @@
+{
+  "name": "apfoods-ui",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bulma": "^0.9.2",
+    "bulma-toast": "^2.3.0",
+    "flutterwave-vue-v3": "^1.0.5",
+    "tailwind-toast": "^1.0.9",
+    "vue": "^3.0.5",
+    "vue-flutterwave": "^1.0.0",
+    "vue-fontawesome": "^0.0.2",
+    "vue-router": "4",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.6",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.9.0",
+    "postcss": "^8.3.3",
+    "prettier": "^2.3.0",
+    "tailwindcss": "^2.1.4",
+    "vite": "^2.3.3"
+  }
+}
